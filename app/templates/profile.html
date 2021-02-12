@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block main%}
+<div class="card">
+	<br>
+  	<img src="{{url_for('static', filename= './images/image1.jpg')}}" alt="image1"/>
+ 	  <h3>Mary Jane</h3>
+  	  <p class="title">@mjane</p>
+	  <p class="title">Kingston, Jamaica
+	  <p class="title">{{now}}</p>
+</div>
+<div class="card1">
+  	  <p>I am a smart and talented young woman who loves website design and development. Contact me if you'd like to work together on a new project.</p>
+<table class ="center">
+   <tr>
+     <th>7</th>
+     <th>100</th>
+     <th>250</th>
+  </tr>
+  <tr>
+     <td>Posts</td>
+     <td>Following</td>
+     <td>Followers</td>
+  </tr>
+</table>
+<br>
+<br>
+   <button>Follow</button>
+
+</div>
+
+
+{% endblock %}

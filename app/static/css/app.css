@@ -1,3 +1,131 @@
 body {
     padding-top: 5rem;
 }
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid, white;
+    border-radius: 100px;
+    width: 200px; 
+    height: 200px;
+}
+
+.card {
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  background-color: pink;
+  border-style: solid;
+}
+
+.card1{
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  background-color: white;
+  border-style: solid;
+}
+
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: purple;
+  text-align: center;
+  cursor: pointer;
+  width: 50%;
+  font-size: 18px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 70%;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+} 
+
+.card{
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  background-color: pink;
+  border-style: solid;
+}
+
+.card1{
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  background-color: white;
+  border-style: solid;
+}
+
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: purple;
+  text-align: center;
+  cursor: pointer;
+  width: 50%;
+  font-size: 18px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 70%;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
